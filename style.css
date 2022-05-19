@@ -1,0 +1,80 @@
+.container {
+	width: 80%;
+	margin:0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 80px;
+	background-color:white;
+	position: fixed;
+	border-bottom: 1px solid #ddd;
+	top: 0;
+	left: 0;
+	z-index: 9;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(194,188,194,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(194,188,194,1);
+box-shadow: 10px 10px 5px 0px rgba(194,188,194,1);
+}
+
+.header h1 {
+	padding:10px;
+	margin-bottom:0.2em;
+}
+
+.container .main-content {
+	position: relative;
+	top: 90px;
+	z-index: 5;
+}
+#slider #arrow-back, #slider #arrow-front {
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	top:100px;
+}
+
+#slider #arrow-back:hover {
+	font-weight:43px;
+	color:#aaa;
+}
+
+#slider #arrow-front {
+	float: right;
+
+	}
+
+
+.main-content .slider-images {
+	width: 80%;
+	margin:0 auto; 
+	position: relative;
+}
+
+.slider-images .slider-image {
+	width: 100%;
+	max-height: 300px;
+	display: none; 
+	 
+}
+
+.slider-indicator {
+	padding: 5px;
+	width: 100px;
+	margin:0 auto;
+	z-index: 8;
+	opacity: 0.9;
+	margin-top: -50px;
+}
+.slider-indicator .node {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin:2px;
+	background: #ddd;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+}
